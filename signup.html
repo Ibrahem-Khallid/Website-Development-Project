@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sign up | Saudi Green Life</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- ===== Header with logos ===== -->
+  <header class="site-header">
+    <img class="logo logo-left" src="images/imamul.png" alt="Imam Mohammad Ibn Saud Islamic University logo">
+    <img class="logo logo-right" src="images/logo-green.svg" alt="Saudi Green Initiative logo">
+    <h1>Saudi Green Life</h1>
+    <p>Student Environmental Awareness Website &ndash; Saudi Vision 2030</p>
+  </header>
+
+  <!-- ===== Top navigation bar ===== -->
+  <nav class="navbar">
+    <a href="index.html">Home</a><a href="green-life.html">Green Life &amp; Initiatives</a><a class="btn-nav" href="signup.html">Sign up</a><a class="btn-nav" href="signin.html">Sign in</a>
+  </nav>
+
+  <!-- ===== Page content ===== -->
+  <div class="container">
+    <h2 class="center">Create Your Account</h2>
+    <form class="form-box" action="signin.html" method="get">
+      <label for="name">Full name</label>
+      <input type="text" id="name" name="name" placeholder="Enter your full name" required>
+
+      <label for="dob">Date of birth</label>
+      <input type="date" id="dob" name="dob" required>
+
+      <label>Gender</label>
+      <div class="check-group">
+        <label><input type="radio" name="gender" value="male" required> Male</label>
+        <label><input type="radio" name="gender" value="female"> Female</label>
+      </div>
+
+      <label for="level">Academic level</label>
+      <select id="level" name="level" required>
+        <option value="">-- Select level --</option>
+        <option>Level 1</option><option>Level 2</option><option>Level 3</option><option>Level 4</option>
+        <option>Level 5</option><option>Level 6</option><option>Level 7</option><option>Level 8</option>
+      </select>
+
+      <label for="college">College</label>
+      <select id="college" name="college" required>
+        <option value="">-- Select college --</option>
+        <option>Computer and Information Sciences</option>
+        <option>Engineering</option>
+        <option>Sharia</option>
+        <option>Economics and Administrative Sciences</option>
+        <option>Medicine</option>
+        <option>Languages and Translation</option>
+        <option>Other</option>
+      </select>
+
+      <label for="city">Home city</label>
+      <input type="text" id="city" name="city" placeholder="e.g. Riyadh" required>
+
+      <label for="username">Username</label>
+      <input type="text" id="username" name="username" required>
+
+      <label for="password">Password</label>
+      <input type="password" id="password" name="password" required>
+
+      <label>Environmental interests</label>
+      <div class="check-group">
+        <label><input type="checkbox" name="interest" value="recycling"> Recycling</label>
+        <label><input type="checkbox" name="interest" value="renewable"> Renewable energy</label>
+        <label><input type="checkbox" name="interest" value="wildlife"> Wildlife</label>
+        <label><input type="checkbox" name="interest" value="water"> Water conservation</label>
+      </div>
+
+      <div class="center">
+        <button class="btn" type="submit">Sign up</button>
+        <button class="btn btn-secondary" type="reset">Reset</button>
+      </div>
+    </form>
+  </div>
+
+  <!-- ===== Footer ===== -->
+  <footer class="site-footer">
+    <p>
+      <a href="mailto:greenlife@imamu.edu.sa">Email: greenlife@imamu.edu.sa</a> |
+      <a href="https://x.com" target="_blank">X (Twitter)</a> |
+      <a href="https://www.instagram.com" target="_blank">Instagram</a> |
+      <a href="https://www.youtube.com" target="_blank">YouTube</a>
+    </p>
+    <p>&copy; 2026 Saudi Green Life &ndash; Imam Mohammad Ibn Saud Islamic University, College of Computer and Information Sciences. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>

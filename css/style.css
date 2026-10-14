@@ -1,0 +1,217 @@
+/* ===== Saudi Green Life - External CSS ===== */
+
+/* ---- Element selectors ---- */
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.7;
+  color: #1c2b1e;
+  background-image: url("../images/background.svg");
+  background-position: center top;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+h1, h2, h3 {
+  color: #1b5e20;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.15);
+}
+
+a { color: #2e7d32; }
+img { border-radius: 10px; }
+ul { padding-left: 22px; }
+
+/* ---- Header & logos ---- */
+.site-header {
+  background-color: #1b5e20;
+  background-image: url("../images/desert.svg");
+  background-position: center 60%;
+  background-size: cover;
+  height: 150px;
+  padding: 15px 30px;
+  text-align: center;
+  border-bottom: 5px solid #a5d6a7;
+}
+.site-header h1 {
+  color: #fff;
+  margin: 10px 0 0;
+  font-size: 34px;
+  text-shadow: 2px 2px 6px #000;
+}
+.site-header p { color: #fff; margin: 0; text-shadow: 1px 1px 4px #000; }
+.logo { width: 80px; height: 80px; border-radius: 50%; border: 3px solid #fff; background: #fff; }
+.logo-left { float: left; }
+.logo-right { float: right; }
+
+/* ---- Top navigation bar ---- */
+.navbar {
+  background-color: #2e7d32;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+  border-bottom: 3px solid #1b5e20;
+}
+.navbar a {
+  display: inline-block;
+  padding: 14px 22px;
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+}
+.navbar a:hover { background-color: #81c784; color: #1b3a1e; }
+.navbar a.active { background-color: #1b5e20; }
+.navbar .btn-nav {
+  background-color: #fbc02d;
+  color: #1b3a1e;
+  border-radius: 20px;
+  padding: 8px 18px;
+  margin: 6px 4px;
+}
+.navbar .btn-nav:hover { background-color: #fff176; }
+
+/* ---- Main content ---- */
+.container {
+  width: 80%;
+  max-width: 1050px;
+  margin: 30px auto;
+  padding: 25px 35px;
+  background-color: rgba(73, 163, 95, 0.93);
+  border: 2px solid #a5d6a7;
+  border-radius: 15px;
+  overflow: hidden;
+}
+.center { text-align: center; }
+
+.hero {
+  background-image: url("../images/pr-cover-image.jpg");
+  background-position: center;
+  background-size: cover;
+  height: 260px;
+  border-radius: 12px;
+  text-align: center;
+  padding: 60px 20px 0;
+  box-sizing: border-box;
+}
+.hero h2 { color: #fff; font-size: 34px; text-shadow: 2px 2px 8px #000; margin: 0; }
+.hero p { color: #fff; font-size: 18px; text-shadow: 1px 1px 5px #000; }
+
+/* ---- Cards ---- */
+.card {
+  display:block;
+  width: auto;
+  vertical-align: top;
+  margin: 15px 0%;
+  padding: 15px;
+  background-color: #f1f8e9;
+  border: 1px solid #aed581;
+  border-radius: 12px;
+  text-align: center;
+}
+
+.card-img {
+  display: block;
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 10px;
+  margin-top: 12px;
+}
+.card:hover { background-color: #dcedc8; border-color: #558b2f; }
+.card h3 { margin-top: 0; }
+
+.highlight {
+  background-color: #fff8e1;
+  border-left: 6px solid #fbc02d;
+  padding: 12px 18px;
+  border-radius: 8px;
+}
+
+/* ---- Floating element + internal links (Green page) ---- */
+.float-menu {
+  float: right;
+  width: 210px;
+  margin: 0 0 20px 25px;
+  padding: 15px;
+  background-color: #e8f5e9;
+  border: 2px solid #2e7d32;
+  border-radius: 12px;
+}
+.float-menu h3 { margin-top: 0; text-align: center; }
+.float-menu a {
+  display: block;
+  padding: 6px 10px;
+  margin: 4px 0;
+  text-decoration: none;
+  border-radius: 6px;
+}
+.float-menu a:hover { background-color: #2e7d32; color: #fff; }
+
+.tip-img { float: left; width: 240px; height: 150px; margin: 0 20px 10px 0; border: 3px solid #a5d6a7; }
+.horizon { clear: both; padding-top: 10px; border-top: 2px dashed #a5d6a7; margin-top: 25px; }
+.horizon img { float: right; width: 300px; margin: 0 0 10px 20px; border: 3px solid #a5d6a7; }
+.horizon video { display: block; width: 100%; max-width: 560px; height: auto; margin: 10px auto; border-radius: 10px; background-color: #000; }
+.back-top { clear: both; text-align: right; }
+
+/* ---- Forms ---- */
+.form-box { width: 70%; margin: 0 auto; }
+.form-box label { display: block; font-weight: bold; margin-top: 14px; }
+.form-box input[type="text"],
+.form-box input[type="password"],
+.form-box input[type="email"],
+.form-box input[type="date"],
+.form-box select,
+.form-box textarea {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border: 2px solid #a5d6a7;
+  border-radius: 8px;
+  box-sizing: border-box;
+  font-size: 15px;
+}
+.form-box input:focus,
+.form-box select:focus,
+.form-box textarea:focus { border-color: #2e7d32; outline: none; background-color: #f1f8e9; }
+.check-group { margin-top: 6px; }
+.check-group label { display: inline-block; font-weight: normal; margin: 4px 14px 4px 0; }
+
+.btn {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 12px 30px;
+  background-color: #2e7d32;
+  color: #fff;
+  border: none;
+  border-radius: 25px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  text-decoration: none;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+}
+.btn:hover { background-color: #1b5e20; }
+.btn-secondary { background-color: #fbc02d; color: #1b3a1e; text-shadow: none; }
+.btn-secondary:hover { background-color: #f9a825; }
+
+/* ---- Footer ---- */
+.site-footer {
+  background-color: #1b5e20;
+  color: #fff;
+  text-align: center;
+  padding: 20px 10px;
+  border-top: 5px solid #a5d6a7;
+}
+.site-footer a { color: #c8e6c9; text-decoration: none; margin: 0 10px; }
+.site-footer a:hover { color: #fff176; text-decoration: underline; }
+.site-footer p { margin: 6px 0; }
+
+/* ---- Responsive ---- */
+@media (max-width: 760px) {
+  .container { width: 92%; padding: 15px; }
+  .card { width: 90%; }
+  .float-menu, .horizon img, .tip-img { float: none; display: block; width: 100%; margin: 10px 0; height: auto; }
+  .form-box { width: 100%; }
+  .logo { width: 55px; height: 55px; }
+  .site-header h1 { font-size: 22px; }
+}

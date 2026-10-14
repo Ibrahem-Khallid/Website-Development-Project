@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Survey | Saudi Green Life</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- ===== Header with logos ===== -->
+  <header class="site-header">
+    <img class="logo logo-left" src="images/imamul.png" alt="Imam Mohammad Ibn Saud Islamic University logo">
+    <img class="logo logo-right" src="images/logo-green.svg" alt="Saudi Green Initiative logo">
+    <h1>Saudi Green Life</h1>
+    <p>Student Environmental Awareness Website &ndash; Saudi Vision 2030</p>
+  </header>
+
+  <!-- ===== Top navigation bar ===== -->
+  <nav class="navbar">
+    <a href="index.html">Home</a><a href="green-life.html">Green Life &amp; Initiatives</a><a class="btn-nav" href="signup.html">Sign up</a><a class="btn-nav" href="signin.html">Sign in</a>
+  </nav>
+
+  <!-- ===== Page content ===== -->
+  <div class="container">
+    <h2 class="center">Environmental Awareness Survey</h2>
+    <form class="form-box" action="index.html" method="get">
+      <label>Which environmental topics interest you? (select all that apply)</label>
+      <div class="check-group">
+        <label><input type="checkbox" name="topic" value="water"> Water conservation</label>
+        <label><input type="checkbox" name="topic" value="energy"> Energy saving</label>
+        <label><input type="checkbox" name="topic" value="recycling"> Recycling</label>
+        <label><input type="checkbox" name="topic" value="wildlife"> Wildlife protection</label>
+        <label><input type="checkbox" name="topic" value="trees"> Tree planting</label>
+        <label><input type="checkbox" name="topic" value="renewable"> Renewable energy</label>
+      </div>
+
+      <label>Which sustainable practices do you already follow?</label>
+      <div class="check-group">
+        <label><input type="checkbox" name="practice" value="recycle"> I recycle waste</label>
+        <label><input type="checkbox" name="practice" value="save-water"> I save water</label>
+        <label><input type="checkbox" name="practice" value="save-energy"> I save electricity</label>
+        <label><input type="checkbox" name="practice" value="reusable"> I use reusable bags and bottles</label>
+        <label><input type="checkbox" name="practice" value="transport"> I use public or shared transport</label>
+      </div>
+
+      <label for="rating">How would you rate your environmental awareness?</label>
+      <select id="rating" name="rating" required>
+        <option value="">-- Select --</option>
+        <option>Excellent</option><option>Good</option><option>Average</option><option>Needs improvement</option>
+      </select>
+
+      <label for="feedback">Your feedback</label>
+      <textarea id="feedback" name="feedback" rows="5" placeholder="Write your comments or suggestions here..."></textarea>
+
+      <div class="center">
+        <button class="btn" type="submit">Submit survey</button>
+        <button class="btn btn-secondary" type="reset">Clear</button>
+      </div>
+    </form>
+  </div>
+
+  <!-- ===== Footer ===== -->
+  <footer class="site-footer">
+    <p>
+      <a href="mailto:greenlife@imamu.edu.sa">Email: greenlife@imamu.edu.sa</a> |
+      <a href="https://x.com" target="_blank">X (Twitter)</a> |
+      <a href="https://www.instagram.com" target="_blank">Instagram</a> |
+      <a href="https://www.youtube.com" target="_blank">YouTube</a>
+    </p>
+    <p>&copy; 2026 Saudi Green Life &ndash; Imam Mohammad Ibn Saud Islamic University, College of Computer and Information Sciences. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
