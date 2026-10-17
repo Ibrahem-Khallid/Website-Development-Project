@@ -24,7 +24,7 @@ ul { padding-left: 22px; }
 /* ---- Header & logos ---- */
 .site-header {
   background-color: #1b5e20;
-  background-image: url("../images/desert.svg");
+  background-image: url("../images/1f804fe4-f6d7-4bfc-8e93-7985a2a4ca53_16x9_1200x676.webp");
   background-position: center 60%;
   background-size: cover;
   height: 150px;
@@ -33,12 +33,13 @@ ul { padding-left: 22px; }
   border-bottom: 5px solid #a5d6a7;
 }
 .site-header h1 {
-  color: #fff;
+  color: #00ff2f;
   margin: 10px 0 0;
   font-size: 34px;
   text-shadow: 2px 2px 6px #000;
+
 }
-.site-header p { color: #fff; margin: 0; text-shadow: 1px 1px 4px #000; }
+.site-header p { color: #00ff08; margin: 0; text-shadow: 1px 1px 4px #000; }
 .logo { width: 80px; height: 80px; border-radius: 50%; border: 3px solid #fff; background: #fff; }
 .logo-left { float: left; }
 .logo-right { float: right; }
